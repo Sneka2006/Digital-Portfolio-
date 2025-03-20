@@ -77,11 +77,8 @@
             padding-left: 20px;
         }
     </style>
-</head>
-<body>
-    <header>
-    <div class="header-content"
-<img src="https://files.catbox.moe/grljt2.jpg" alt="Your Profile Picture" class="profile-picture">
+class="header-content"
+<img src="https://files.catbox.moe/grljt2.jpg"  alt="Your Profile Picture" class="profile-picture">
                   <h1>Sneka.S</h1>
 <p>Am Computer Engineer</p>
         </div>
