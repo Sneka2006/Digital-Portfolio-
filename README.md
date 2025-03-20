@@ -74,19 +74,22 @@
         }
         ul {
             list-style-type: disc;
-            padding-left: 20px;
+           padding-left: 20px;
         }
     </style>
-class="header-content"
-<img src="https://files.catbox.moe/grljt2.jpg"  alt="Your Profile Picture" class="profile-picture">
-                  <h1>Sneka.S</h1>
-<p>Am Computer Engineer</p>
+</head>
+<body>
+    <header>
+        <div class="header-content">     
+<img src="https://files.catbox.moe/grljt2.jpg" alt="Your Profile Picture" class="profile-picture">
+                     <h1>Sneka .M</h1>
+                    <p>Am Computer Engineer</p>
         </div>
     </header>
     <nav>
         <ul>
             <li><a href="#about">About</a></li>
-  <li><a> href="#education">Education</a></li>
+            <li><a href="#education">Education</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#resume">Resume</a></li>
@@ -95,15 +98,15 @@ class="header-content"
     <section id="about">
         <div class="section-content">
             <h2>About Me</h2>
-            <p>""A self-motivated learner with a passion for technology and programming. Proficient in C, C++, and Java, with a keen interest in expanding my skills and applying them to real-world challenges.""</p>
+            <p> "A self motivated learner with a keen interest in programming and technology. Skilled in C, C++, and Java, with a passion for learning and problem-solving. Eager to apply my knowledge in real-world applications and continuously improve my technical skills." </p>
         </div>
     </section>
     <section id="education">
         <div class="section-content">
             <h2>Education</h2>
-            <li> B.Sc Computer Science </li1>
-            <li> L.R.G Government Arts and Science College for Women-Tirupur.</li2>
-            <li> Affiliated to Bharathiyar University</li3>
+            <li> B.Sc Computer Science </li>
+            <li> L.R.G Government Arts and Science College for Women-Tirupur.</li>
+            <li> Affiliated to Bharathiyar University</li>       
         </div>
     </section>
     <section id="skills">
@@ -122,10 +125,10 @@ class="header-content"
         <div class="section-content">
             <h2>Projects</h2>
             <ul>
-                <li><a href="#">Travel Expolrer using Html and CSS</a></li>
-                <li><a href="#">Blog Website using Html</a></li>
-                <li><a href="#"> Custom form styling using CSS</a></li>
-       <li><a href="#">Digital Portfolio using HTML</a></li> 
+                <li><a href="#">Travel explorer  using Html and CSS</a></li>
+                <li><a href="#">Blog website using Html</a></li>
+                <li><a href="#">Custom form styling using  CSS</a></li>
+                <li><a href="#">Digital Portfolio using HTML</a></li> 
                 <!-- Add more project links here -->
             </ul>
         </div>
@@ -134,25 +137,23 @@ class="header-content"
         <div class="section-content">
             <center>
             <h2>Resume</h2>
-            <a href="https://drive.google.com/file/d/156Hu8Hurr9E62GqBYyWXCt11xz-oLv2h/view?usp=drivesdk" target="_blank" class="download-button">Download CV</a>
-        </center>
-        </div>
-    </section>
+             <a href="https://drive.google.com/file/d/156Hu8Hurr9E62GqBYyWXCt11xz-oLv2h/view?usp=drivesdk" target="_blank" class="download-button">Download CV</a>
     <footer>
         <p>&copy; 2025 Sneka.M</p>
     </footer>
     <script>
-        // Smooth scrolling to section when clicking on navigation links       document.querySelectorAll('a[href^="#"]').forEach(anchor => {       anchor.addEventListener('click', function(e) {
+        // Smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
                 e.preventDefault();
                 const targetId = this.getAttribute('href').substring(1);
                 const targetElement = document.getElementById(targetId);
-                if (targetElement) {                   window.scrollTo({
-                        top: targetElement.offsetTop
-                behavior: 'smooth'
-                });
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
                 }
             });
-        });
-    </script>
-</body>
-</html>
+        });   
+        </script>
